@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MediaSeal Report</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    code { background: #f4f4f4; padding: 0.1rem 0.3rem; }
+  </style>
+</head>
+<body>
+  <h1>MediaSeal Evidence Report</h1>
+  <p>Drop a sealed pack JSON below or open this file next to a generated pack for a printable summary.</p>
+  <p><em>Full interactive HTML report ships with the Command / Agency SKUs.</em></p>
+  <pre id="output">Awaiting pack…</pre>
+  <script>
+    // Placeholder — load sealed_media.json via fetch in a real local server context
+    document.getElementById('output').textContent = 'Open sealed pack and paste payload or use CLI for verification.';
+  </script>
+</body>
+</html>
